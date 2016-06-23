@@ -12,12 +12,12 @@
 	</parent>
 
 	<groupId>org.demo.camel</groupId>
-	<artifactId>demo-camel</artifactId>
+	<artifactId>demo-camel-amazon-mws-product</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Camel Demo</name>
-	<description>Demo project for Spring Boot and Camel</description>
+	<name>Camel Demo with Amazon MWS Product API</name>
+	<description>Demo project for Spring Boot, Camel and Amazon MWS Product API</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,6 +28,18 @@
 	</properties>
 
 	<dependencies>
+		<!-- Amazon MWS libraries created by Trifon -->
+		<dependency>
+			<groupId>name.trifon.amazon.mws</groupId>
+			<artifactId>mws-client-runtime</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>name.trifon.amazon.mws</groupId>
+			<artifactId>mws-java-product</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
 		 <!-- web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

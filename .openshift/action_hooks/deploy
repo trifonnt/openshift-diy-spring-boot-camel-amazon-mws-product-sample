@@ -10,7 +10,7 @@ readonly JAVA_HOME=jdk8
 if [ ! -d ${OPENSHIFT_DATA_DIR}m2/repository ]
 then
 	cd $OPENSHIFT_DATA_DIR
-	mkdir m2/repository                
+	mkdir m2/repository
 fi
 
 #if [ ! -d ${OPENSHIFT_DATA_DIR}logs ]
@@ -44,5 +44,16 @@ export MAVEN_OPTS="-Xms384m -Xmx412m"
 export JDK=${OPENSHIFT_DATA_DIR}${JAVA_HOME}/bin
 
 export PATH=$JDK:$M2:$PATH
+
+if [ ! -d ${OPENSHIFT_DATA_DIR}amazon-mws-products ]
+then
+	cd $OPENSHIFT_DATA_DIR
+	mkdir amazon-mws-products
+	cd amazon-mws-products
+	wget https://images-na.ssl-images-amazon.com/images/G/01/mwsportal/clientlib/Products/2011-10-01/MWSProductsJavaClientLibrary-2011-10-01._V269521071_.zip
+	unzip ./MWSProductsJavaClientLibrary-2011-10-01._V269521071_.zip
+	mvn install:install-file -Dfile=dist/MWSClientJavaRuntime-1.0.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-client-runtime -Dversion=1.0.0 -Dpackaging=jar
+	mvn install:install-file -Dfile=dist/MWSProducts_2011-10-01_v2016-06-01.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-java-product -Dversion=1.0.0 -Dpackaging=jar
+fi
 
 mvn -s settings.xml clean install -DskipTests=true
