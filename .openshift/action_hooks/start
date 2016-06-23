@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+set -x
+
+#export JAVA_HOME="jdk8"
+export JDK=${OPENSHIFT_DATA_DIR}jdk8/bin
+
+export PATH=$JDK:$PATH
+
+cd $OPENSHIFT_REPO_DIR
+nohup java -Xms384m -Xmx412m -Dspring.profiles.active=openshift -jar target/*.jar &

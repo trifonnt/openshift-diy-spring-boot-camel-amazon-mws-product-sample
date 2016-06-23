@@ -1,0 +1,60 @@
+#!/bin/bash
+
+set -x
+
+MAVEN_VERSION=3.3.9
+
+export MAVEN_HOME=maven
+readonly JAVA_HOME=jdk8
+
+if [ ! -d ${OPENSHIFT_DATA_DIR}m2/repository ]
+then
+	cd $OPENSHIFT_DATA_DIR
+	mkdir m2/repository
+fi
+
+#if [ ! -d ${OPENSHIFT_DATA_DIR}logs ]
+#then
+#	cd $OPENSHIFT_DATA_DIR
+#	mkdir logs
+#fi
+
+if [ ! -d ${OPENSHIFT_DATA_DIR}$JAVA_HOME ]
+then
+	cd $OPENSHIFT_DATA_DIR
+	wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz
+	tar xvf *.tar.gz
+	rm -f *.tar.gz
+	mv jdk1.8.0_91 $JAVA_HOME
+fi
+
+if [ ! -d ${OPENSHIFT_DATA_DIR}$MAVEN_HOME ]
+then
+	cd $OPENSHIFT_DATA_DIR
+	wget http://mirror.cc.columbia.edu/pub/software/apache/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz
+	tar xvf *.tar.gz
+	rm -f *.tar.gz
+	mv apache-maven-${MAVEN_VERSION} $MAVEN_HOME
+fi
+
+
+cd $OPENSHIFT_REPO_DIR
+export M2=${OPENSHIFT_DATA_DIR}${MAVEN_HOME}/bin
+export MAVEN_OPTS="-Xms384m -Xmx412m"
+export JDK=${OPENSHIFT_DATA_DIR}${JAVA_HOME}/bin
+
+export PATH=$JDK:$M2:$PATH
+
+if [ ! -d ${OPENSHIFT_DATA_DIR}amazon-mws-products ]
+then
+	cd $OPENSHIFT_DATA_DIR
+	mkdir amazon-mws-products
+	cd amazon-mws-products
+	wget https://images-na.ssl-images-amazon.com/images/G/01/mwsportal/clientlib/Products/2011-10-01/MWSProductsJavaClientLibrary-2011-10-01._V269521071_.zip
+	unzip ./MWSProductsJavaClientLibrary-2011-10-01._V269521071_.zip
+	mvn -s ${OPENSHIFT_REPO_DIR}settings.xml install:install-file -Dfile=dist/MWSClientJavaRuntime-1.0.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-client-runtime -Dversion=1.0.0 -Dpackaging=jar
+	mvn -s ${OPENSHIFT_REPO_DIR}settings.xml install:install-file -Dfile=dist/MWSProducts_2011-10-01_v2016-06-01.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-java-product -Dversion=1.0.0 -Dpackaging=jar
+fi
+
+cd $OPENSHIFT_REPO_DIR
+mvn -s settings.xml clean install -DskipTests=true
