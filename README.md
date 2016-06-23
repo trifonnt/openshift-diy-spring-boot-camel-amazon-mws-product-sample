@@ -1,22 +1,23 @@
-# Prerequisite 01 - Openshift Account
+# Prerequisite 01 - OpenShift Account
 
 Before we can start building the application, we need to have an OpenShift free or paid account and RedHat client tools(rhc) installed. For instructions how to install rhc please read [Getting Started with OpenShift Online](https://developers.openshift.com/en/getting-started-overview.html).
 
 
 # Prerequisite 02 - Amazon MWS libraries
 
-We must download Amazon MWS Product library and import it into Local Maven repository.
+We must download Amazon MWS Product library and import it into our local Maven repository.
 ```shell
-mkdir amazon-mws-products
-cd amazon-mws-products
 
-wget https://images-na.ssl-images-amazon.com/images/G/01/mwsportal/clientlib/Products/2011-10-01/MWSProductsJavaClientLibrary-2011-10-01._V269521071_.zip
-unzip ./MWSProductsJavaClientLibrary-2011-10-01._V269521071_.zip
+	mkdir amazon-mws-products
+	cd amazon-mws-products
+
+	wget https://images-na.ssl-images-amazon.com/images/G/01/mwsportal/clientlib/Products/2011-10-01/MWSProductsJavaClientLibrary-2011-10-01._V269521071_.zip
+	unzip ./MWSProductsJavaClientLibrary-2011-10-01._V269521071_.zip
 
 
-mvn install:install-file -Dfile=dist/MWSClientJavaRuntime-1.0.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-client-runtime -Dversion=1.0.0 -Dpackaging=jar
+	mvn install:install-file -Dfile=dist/MWSClientJavaRuntime-1.0.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-client-runtime -Dversion=1.0.0 -Dpackaging=jar
 
-mvn install:install-file -Dfile=dist/MWSProducts_2011-10-01_v2016-06-01.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-java-product -Dversion=1.0.0 -Dpackaging=jar
+	mvn install:install-file -Dfile=dist/MWSProducts_2011-10-01_v2016-06-01.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-java-product -Dversion=1.0.0 -Dpackaging=jar
 ```
 
 
@@ -61,7 +62,7 @@ Commit the changes:
 
 # Step 4: Pull Source code from GitHub
 
-    git remote add upstream https://github.com/trifonnt/openshift-diy-spring-boot-camel-sample.git
+    git remote add upstream https://github.com/trifonnt/openshift-diy-spring-boot-camel-amazon-mws-product-sample.git
     git pull -s recursive -X theirs upstream master
 
 # Step 5: Push changes
