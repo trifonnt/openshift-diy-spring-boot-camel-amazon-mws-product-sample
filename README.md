@@ -90,7 +90,15 @@ You can now browse to: http://camel-<namespace>.rhcloud.com/health.json and you 
 
 You can then browse to "/" to see the API root resource.
 
-# Step 6: Adding Jenkins
+# Step 6: Set environment variables
+
+```shell
+
+	rhc app-stop
+	rhc env-set mws.url=TRIFON	
+```
+
+# Step 7(Optional step): Adding Jenkins
 
 Using Jenkins has some advantages. One of them is that the build takes place in it's own Gear. To build with Jenkins, OpenShift needs a server and a Jenkins client cartridge attached to the application. Creating Jenkins application:
 
