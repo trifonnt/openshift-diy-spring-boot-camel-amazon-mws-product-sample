@@ -1,4 +1,4 @@
-package demo.processor;
+package demo.camel.processor;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;

@@ -1,9 +1,9 @@
-package demo.route;
+package demo.camel.route;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-import demo.processor.AmazonProductProcessor;
+import demo.camel.processor.AmazonProductProcessor;
 
 
 @Component
