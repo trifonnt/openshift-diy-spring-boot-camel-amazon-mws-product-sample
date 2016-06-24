@@ -1,0 +1,31 @@
+package demo.processor;
+
+import org.apache.camel.Exchange;
+import org.apache.camel.Processor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class AmazonProductProcessor implements Processor {
+
+	private static final Logger LOG = LoggerFactory.getLogger(AmazonProductProcessor.class);
+
+
+	@Override
+	public void process(Exchange exchange) throws Exception {
+		// String body = exchange.getIn().getBody(String.class);
+
+		// Get the bookId Header
+		String searchString = (String) exchange.getIn().getHeader("searchString");
+		LOG.debug("Received queiry parameter[searchString]=" + searchString);
+
+		// We have access to the HttpServletRequest here and we can grab it if we need to
+		// HttpServletRequest req = exchange.getIn().getBody(HttpServletRequest.class);
+		// assertNotNull(req);
+
+		// For unit testing
+		// assertEquals("searchString=123", body);
+
+		// Send a html response
+		exchange.getOut().setBody("<html><body>Searching for " + searchString + ".</body></html>");
+	}
+}
