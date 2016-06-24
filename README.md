@@ -76,12 +76,16 @@ The initial deployment (build and application startup) will take some time (up t
 	Tomcat started on port(s): 8080/http
 	Started Application in 125.511 seconds
 
-You can now browse to: http://camel-<namespace>.rhcloud.com/manage/health and you should see:
+You can now browse to: http://camel-<namespace>.rhcloud.com/health.json and you should see:
 
 	{
-		"status": "UP",
-		"database": "PostgreSQL",
-		"hello": 1
+		"status":"UP",
+		"diskSpace":{
+			"status":"UP",
+			"total":187894333440,
+			"free":57465516032,
+			"threshold":10485760
+		}
 	}
 
 You can then browse to "/" to see the API root resource.
