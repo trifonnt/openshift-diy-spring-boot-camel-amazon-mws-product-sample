@@ -11,7 +11,6 @@ public class MyApplication {
 
 	private static final Logger LOG = LoggerFactory.getLogger(MyApplication.class);
 
-
 	public static void main(String... args) {
 		LOG.info(" *** Starting Spring Boot Camel Demo Application ***");
 		SpringApplication.run(MyApplication.class, args);

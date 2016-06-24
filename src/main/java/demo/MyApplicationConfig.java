@@ -21,6 +21,10 @@ public class MyApplicationConfig {
 //		return new DefaultMyService( camelContext );
 //	}
 
+//	private static final String CAMEL_URL_MAPPING = "/camel/*";
+//	private static final String CAMEL_SERVLET_NAME = "CamelServlet";
+
+
 	@Bean
 	CamelContextConfiguration contextConfiguration() {
 		return new CamelContextConfiguration() {
