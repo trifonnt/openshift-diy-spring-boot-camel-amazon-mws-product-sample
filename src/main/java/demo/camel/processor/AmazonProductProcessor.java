@@ -27,7 +27,7 @@ public class AmazonProductProcessor implements Processor {
 		// assertEquals("searchString=123", body);
 
 		// Send a html response
-		exchange.getOut().setHeader(Exchange.CONTENT_TYPE, MediaType.APPLICATION_XML);
+		exchange.getOut().setHeader(Exchange.CONTENT_TYPE, MediaType.TEXT_HTML);
 		exchange.getOut().setBody("<html><body>Searching for " + searchString + ".</body></html>")
 		;
 	}
