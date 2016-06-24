@@ -15,7 +15,7 @@ public class MyMwsProductRoute extends RouteBuilder {
 	@SuppressWarnings("unused")
 	private static final Logger LOG = LoggerFactory.getLogger(MyMwsProductRoute.class);
 
-	@PropertyInject(value = "MWS_URL", defaultValue = "")
+//	@PropertyInject(value = "MWS_URL", defaultValue = "")
 	private String mwsUrl = "";
 
 

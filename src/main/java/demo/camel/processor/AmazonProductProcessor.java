@@ -2,14 +2,17 @@ package demo.camel.processor;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
+import org.apache.camel.PropertyInject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
+
 
 public class AmazonProductProcessor implements Processor {
 
 	private static final Logger LOG = LoggerFactory.getLogger(AmazonProductProcessor.class);
 
+	@PropertyInject(value = "MWS_URL", defaultValue = "")
 	private String mwsUrl;
 
 

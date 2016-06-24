@@ -95,7 +95,8 @@ You can then browse to "/" to see the API root resource.
 ```shell
 
 	rhc app-stop
-	rhc env-set mws.url=TRIFON	
+	rhc env-set MWS_URL=TRIFON
+	rhc app-start
 ```
 
 # Step 7(Optional step): Adding Jenkins
