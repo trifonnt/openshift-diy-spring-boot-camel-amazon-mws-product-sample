@@ -14,7 +14,7 @@ public class AmazonProductProcessor implements Processor {
 
 
 	public AmazonProductProcessor(String mwsUrl) {
-		mwsUrl = mwsUrl;
+		this.mwsUrl = mwsUrl;
 	}
 
 	@Override
