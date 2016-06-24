@@ -4,6 +4,7 @@ import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.MediaType;
 
 public class AmazonProductProcessor implements Processor {
 
@@ -26,6 +27,8 @@ public class AmazonProductProcessor implements Processor {
 		// assertEquals("searchString=123", body);
 
 		// Send a html response
-		exchange.getOut().setBody("<html><body>Searching for " + searchString + ".</body></html>");
+		exchange.getOut().setHeader(Exchange.CONTENT_TYPE, MediaType.APPLICATION_XML);
+		exchange.getOut().setBody("<html><body>Searching for " + searchString + ".</body></html>")
+		;
 	}
 }
