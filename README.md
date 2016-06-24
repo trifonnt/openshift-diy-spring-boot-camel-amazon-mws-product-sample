@@ -105,7 +105,9 @@ You can now browse to: http://camel-<namespace>.rhcloud.com/health.json and you 
 
 You can then browse to "/" to see the API root resource.
 
-# Step 6: Set environment variables
+# Step 6: Set OpenShift environment variables with Amazon MWS access details
+
+Following security best practices we are not storing our Amazon MWS access details in the source code or property files. We use Environment variables, which must be set manually first time we deploy our application on OpenShift PAAS.
 
 ```shell
 
