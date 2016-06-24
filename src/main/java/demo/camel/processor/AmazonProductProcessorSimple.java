@@ -6,16 +6,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
 
-public class AmazonProductProcessor implements Processor {
+public class AmazonProductProcessorSimple implements Processor {
 
-	private static final Logger LOG = LoggerFactory.getLogger(AmazonProductProcessor.class);
+	private static final Logger LOG = LoggerFactory.getLogger(AmazonProductProcessorSimple.class);
 
-	private String mwsUrl;
-
-
-	public AmazonProductProcessor(String mwsUrl) {
-		mwsUrl = mwsUrl;
-	}
 
 	@Override
 	public void process(Exchange exchange) throws Exception {
@@ -34,10 +28,7 @@ public class AmazonProductProcessor implements Processor {
 
 		// Send a html response
 		exchange.getOut().setHeader(Exchange.CONTENT_TYPE, MediaType.TEXT_HTML);
-		exchange.getOut().setBody("<html><body>"
-				+ "searchString = " + searchString + "<br/>"
-				+ "mws.url = " + mwsUrl + "<br/>"
-				+ "</body></html>")
+		exchange.getOut().setBody("<html><body>Searching for " + searchString + ".</body></html>")
 		;
 	}
 }

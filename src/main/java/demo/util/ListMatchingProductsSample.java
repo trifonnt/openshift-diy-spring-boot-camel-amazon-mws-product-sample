@@ -1,18 +1,3 @@
-/*******************************************************************************
- * Copyright 2009-2016 Amazon Services. All Rights Reserved.
- * Licensed under the Apache License, Version 2.0 (the "License"); 
- *
- * You may not use this file except in compliance with the License. 
- * You may obtain a copy of the License at: http://aws.amazon.com/apache2.0
- * This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR 
- * CONDITIONS OF ANY KIND, either express or implied. See the License for the 
- * specific language governing permissions and limitations under the License.
- *******************************************************************************
- * Marketplace Web Service Products
- * API Version: 2011-10-01
- * Library Version: 2016-06-01
- * Generated: Mon Jun 13 10:07:47 PDT 2016
- */
 package demo.util;
 
 import com.amazonservices.mws.products.MarketplaceWebServiceProducts;
@@ -22,25 +7,14 @@ import com.amazonservices.mws.products.model.ListMatchingProductsRequest;
 import com.amazonservices.mws.products.model.ListMatchingProductsResponse;
 import com.amazonservices.mws.products.model.ResponseHeaderMetadata;
 
-/** Sample call for ListMatchingProducts. */
 public class ListMatchingProductsSample {
 
-	/**
-	 * Call the service, log response and exceptions.
-	 *
-	 * @param client
-	 * @param request
-	 *
-	 * @return The response.
-	 */
-	public static ListMatchingProductsResponse invokeListMatchingProducts(MarketplaceWebServiceProducts client,
-			ListMatchingProductsRequest request) {
+	public static ListMatchingProductsResponse invokeRequest(MarketplaceWebServiceProducts client, ListMatchingProductsRequest request) {
 		try {
-			// Call the service.
 			ListMatchingProductsResponse response = client.listMatchingProducts(request);
+
 			ResponseHeaderMetadata rhmd = response.getResponseHeaderMetadata();
-			// We recommend logging every the request id and timestamp of every
-			// call.
+			// We recommend logging every the request id and timestamp of every call.
 			System.out.println("Response:");
 			System.out.println("RequestId: " + rhmd.getRequestId());
 			System.out.println("Timestamp: " + rhmd.getTimestamp());
@@ -63,9 +37,6 @@ public class ListMatchingProductsSample {
 		}
 	}
 
-	/**
-	 * Command line entry point.
-	 */
 	public static void main(String[] args) {
 		// Get a client connection.
 		// Make sure you've set the variables in
@@ -90,6 +61,6 @@ public class ListMatchingProductsSample {
 		request.setQueryContextId(queryContextId);
 
 		// Make the call.
-		ListMatchingProductsSample.invokeListMatchingProducts(client, request);
+		ListMatchingProductsResponse response = ListMatchingProductsSample.invokeRequest(client, request);
 	}
 }

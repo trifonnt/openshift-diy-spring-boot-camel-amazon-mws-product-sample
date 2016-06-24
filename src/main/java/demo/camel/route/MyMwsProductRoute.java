@@ -1,5 +1,6 @@
 package demo.camel.route;
 
+import org.apache.camel.PropertyInject;
 import org.apache.camel.builder.RouteBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +15,9 @@ public class MyMwsProductRoute extends RouteBuilder {
 	@SuppressWarnings("unused")
 	private static final Logger LOG = LoggerFactory.getLogger(MyMwsProductRoute.class);
 
+	@PropertyInject(value = "mws.url", defaultValue = "")
+	private String mwsUrl;
+
 
 	//   SSL and Apache Camel HTTP component
 	// - http://stackoverflow.com/questions/5706166/apache-camel-http-and-ssl
@@ -24,7 +28,7 @@ public class MyMwsProductRoute extends RouteBuilder {
 	@Override
 	public void configure() {
 		// Create processors
-		AmazonProductProcessor amazonProductProcessor = new AmazonProductProcessor();
+		AmazonProductProcessor amazonProductProcessor = new AmazonProductProcessor( mwsUrl );
 
 		// http://localhost:8080/camel/mws/product
         from("servlet:///mws/product?matchOnUriPrefix=true")
