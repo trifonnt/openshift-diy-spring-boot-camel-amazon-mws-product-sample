@@ -15,7 +15,7 @@ public class AmazonProductProcessorSimple implements Processor {
 	public void process(Exchange exchange) throws Exception {
 		// String body = exchange.getIn().getBody(String.class);
 
-		// Get the bookId Header
+		// Get the searchString Header
 		String searchString = (String) exchange.getIn().getHeader("searchString");
 		LOG.info("Received query parameter[searchString]=" + searchString);
 

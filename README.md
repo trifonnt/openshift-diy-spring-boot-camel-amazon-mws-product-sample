@@ -1,6 +1,6 @@
-# Prerequisite 01 - OpenShift Account
+# Prerequisite 01 - Amazon MWS Account
 
-Before we can start building the application, we need to have an OpenShift free or paid account and RedHat client tools(rhc) installed. For instructions how to install rhc please read [Getting Started with OpenShift Online](https://developers.openshift.com/en/getting-started-overview.html).
+In order to access Amazon MWS API user must have at least one of the following: a non-individual Selling on Amazon account, an Amazon Payments account, an Amazon Fresh account, or an Amazon Prime Now account. For more information: [Can all Amazon sellers use MWS?](https://developer.amazonservices.com/gp/mws/faq.html/186-4678908-7085925#mawsportal-faq-mwsSellers)
 
 
 # Prerequisite 02 - Amazon MWS libraries
@@ -19,6 +19,10 @@ We must download Amazon MWS Product library and import it into our local Maven r
 
 	mvn install:install-file -Dfile=dist/MWSProducts_2011-10-01_v2016-06-01.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-java-product -Dversion=1.0.0 -Dpackaging=jar
 ```
+
+# Prerequisite 03(Optional, needed only if deploying on OpenShift PAAS) - OpenShift Account
+
+Before we can start building the application, we need to have an OpenShift free or paid account and RedHat client tools(rhc) installed. For instructions how to install rhc please read [Getting Started with OpenShift Online](https://developers.openshift.com/en/getting-started-overview.html).
 
 
 # Step 1: Create DIY application
@@ -95,11 +99,20 @@ You can then browse to "/" to see the API root resource.
 ```shell
 
 	rhc app-stop
-	rhc env-set MWS_URL=TRIFON
+	rhc env-set MWS_URL=https://mws-eu.amazonservices.com
+	rhc env-set MWS_ACCESS_KEY=YOUR-VALUE-HERE
+	rhc env-set MWS_SECRET_ACCESS_KEY=YOUR-VALUE-HERE
+	rhc env-set MWS_MARKETPLACE_ID=YOUR-VALUE-HERE
+	rhc env-set MWS_MERCHANT_ID=YOUR-VALUE-HERE
 	rhc app-start
 ```
 
-# Step 7(Optional step): Adding Jenkins
+# Step 7: Make request
+
+	http://camel-.rhcloud.com/camel/mws/product?searchString=OSGi&context=All
+
+
+# Step 8(Optional step): Adding Jenkins
 
 Using Jenkins has some advantages. One of them is that the build takes place in it's own Gear. To build with Jenkins, OpenShift needs a server and a Jenkins client cartridge attached to the application. Creating Jenkins application:
 

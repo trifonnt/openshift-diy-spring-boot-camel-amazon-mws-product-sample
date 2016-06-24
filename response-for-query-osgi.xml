@@ -1,0 +1,757 @@
+<ListMatchingProductsResponse
+	xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+	<ListMatchingProductsResult>
+		<Products>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>389864457X</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Broschiert</ns2:Binding>
+						<ns2:Creator Role="Autor">Gerd Wütherich</ns2:Creator>
+						<ns2:Creator Role="Autor">Nils Hartmann</ns2:Creator>
+						<ns2:Creator Role="Autor">Bernd Kolb</ns2:Creator>
+						<ns2:Creator Role="Autor">Matthias Lübken</ns2:Creator>
+						<ns2:Edition>1</ns2:Edition>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">9.45</ns2:Height>
+							<ns2:Length Units="inches">6.57</ns2:Length>
+							<ns2:Width Units="inches">1.57</ns2:Width>
+						</ns2:ItemDimensions>
+						<ns2:Label>dpunkt Verlag</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Original</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Unbekannt</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:ListPrice>
+							<ns2:Amount>44.00</ns2:Amount>
+							<ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+						</ns2:ListPrice>
+						<ns2:Manufacturer>dpunkt Verlag</ns2:Manufacturer>
+						<ns2:NumberOfPages>468</ns2:NumberOfPages>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">1.26</ns2:Height>
+							<ns2:Length Units="inches">9.53</ns2:Length>
+							<ns2:Width Units="inches">6.54</ns2:Width>
+							<ns2:Weight Units="pounds">1.68</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:ProductGroup>Book</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2008-04-18</ns2:PublicationDate>
+						<ns2:Publisher>dpunkt Verlag</ns2:Publisher>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/41oy7Rh%2BQZL._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">52</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>dpunkt Verlag</ns2:Studio>
+						<ns2:Title>Die OSGI Service Platform-Eine Einführung mit Eclipse Equinox</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>book_display_on_website</ProductCategoryId>
+						<Rank>465168</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>166041031</ProductCategoryId>
+						<Rank>14</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>166030031</ProductCategoryId>
+						<Rank>146</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>655710</ProductCategoryId>
+						<Rank>320</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>1933988916</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Taschenbuch</ns2:Binding>
+						<ns2:Creator Role="Autor">Hall, Richard S.</ns2:Creator>
+						<ns2:Creator Role="Autor">Pauls, Karl</ns2:Creator>
+						<ns2:Creator Role="Autor">McCulloch, Stuart</ns2:Creator>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">9.25</ns2:Height>
+							<ns2:Length Units="inches">7.38</ns2:Length>
+							<ns2:Width Units="inches">1.15</ns2:Width>
+							<ns2:Weight Units="pounds">2.02</ns2:Weight>
+						</ns2:ItemDimensions>
+						<ns2:Label>Manning</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Original</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Unbekannt</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:ListPrice>
+							<ns2:Amount>48.10</ns2:Amount>
+							<ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+						</ns2:ListPrice>
+						<ns2:Manufacturer>Manning</ns2:Manufacturer>
+						<ns2:NumberOfItems>1</ns2:NumberOfItems>
+						<ns2:NumberOfPages>548</ns2:NumberOfPages>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">1.42</ns2:Height>
+							<ns2:Length Units="inches">9.21</ns2:Length>
+							<ns2:Width Units="inches">7.40</ns2:Width>
+							<ns2:Weight Units="pounds">2.12</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:PackageQuantity>1</ns2:PackageQuantity>
+						<ns2:ProductGroup>Book</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2011-04-21</ns2:PublicationDate>
+						<ns2:Publisher>Manning</ns2:Publisher>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51FEC5C95LL._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">60</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Manning</ns2:Studio>
+						<ns2:Title>OSGi in Action: Creating Modular Applications in Java
+						</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>us_display_on_website</ProductCategoryId>
+						<Rank>29568</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>book_display_on_website</ProductCategoryId>
+						<Rank>189235</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63069011</ProductCategoryId>
+						<Rank>79</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63418011</ProductCategoryId>
+						<Rank>420</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B00YGUT04W</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Kindle Edition</ns2:Binding>
+						<ns2:Creator Role="Autor">Kriens, Peter</ns2:Creator>
+						<ns2:Creator Role="Autor">Baranowski, Christian</ns2:Creator>
+						<ns2:Creator Role="Autor">Ziegeler, Carsten</ns2:Creator>
+						<ns2:Creator Role="Autor">Grzesik, Alexander</ns2:Creator>
+						<ns2:Format>Kindle eBook</ns2:Format>
+						<ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+						<ns2:Label>entwickler.press</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:Manufacturer>entwickler.press</ns2:Manufacturer>
+						<ns2:NumberOfPages>50</ns2:NumberOfPages>
+						<ns2:ProductGroup>eBooks</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_EBOOKS</ns2:ProductTypeName>
+						<ns2:PublicationDate>2015-05-28</ns2:PublicationDate>
+						<ns2:Publisher>entwickler.press</ns2:Publisher>
+						<ns2:ReleaseDate>2015-05-28</ns2:ReleaseDate>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/41rGV8shsRL._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">56</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>entwickler.press</ns2:Studio>
+						<ns2:Title>OSGi-Entwicklung (shortcuts 143)</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>ebooks_display_on_website</ProductCategoryId>
+						<Rank>180558</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>617006031</ProductCategoryId>
+						<Rank>152</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>166030031</ProductCategoryId>
+						<Rank>190</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>655738</ProductCategoryId>
+						<Rank>261</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>1617290130</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Taschenbuch</ns2:Binding>
+						<ns2:Brand>Unbekannt</ns2:Brand>
+						<ns2:Creator Role="Autor">Cummins, Holly</ns2:Creator>
+						<ns2:Edition>Pap/Psc</ns2:Edition>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">9.50</ns2:Height>
+							<ns2:Length Units="inches">7.50</ns2:Length>
+							<ns2:Width Units="inches">0.88</ns2:Width>
+							<ns2:Weight Units="pounds">1.45</ns2:Weight>
+						</ns2:ItemDimensions>
+						<ns2:Label>Manning</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Original</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Unbekannt</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:ListPrice>
+							<ns2:Amount>67.36</ns2:Amount>
+							<ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+						</ns2:ListPrice>
+						<ns2:Manufacturer>Manning</ns2:Manufacturer>
+						<ns2:NumberOfPages>376</ns2:NumberOfPages>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">1.00</ns2:Height>
+							<ns2:Length Units="inches">9.10</ns2:Length>
+							<ns2:Width Units="inches">7.30</ns2:Width>
+							<ns2:Weight Units="pounds">1.50</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:PackageQuantity>1</ns2:PackageQuantity>
+						<ns2:ProductGroup>Book</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2013-04-25</ns2:PublicationDate>
+						<ns2:Publisher>Manning</ns2:Publisher>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51SheXfel2L._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">60</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Manning</ns2:Studio>
+						<ns2:Title>Enterprise OSGi: With Examples Using Apache Aries
+						</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>us_display_on_website</ProductCategoryId>
+						<Rank>85960</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>book_display_on_website</ProductCategoryId>
+						<Rank>454047</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63161011</ProductCategoryId>
+						<Rank>179</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63069011</ProductCategoryId>
+						<Rank>223</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63252011</ProductCategoryId>
+						<Rank>480</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B007KOGS5U</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Kindle Edition</ns2:Binding>
+						<ns2:Creator Role="Autor">Knoernschild, Kirk</ns2:Creator>
+						<ns2:Edition>1</ns2:Edition>
+						<ns2:Format>Kindle eBook</ns2:Format>
+						<ns2:Label>Addison-Wesley Professional</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:Manufacturer>Addison-Wesley Professional</ns2:Manufacturer>
+						<ns2:NumberOfPages>384</ns2:NumberOfPages>
+						<ns2:ProductGroup>eBooks</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_EBOOKS</ns2:ProductTypeName>
+						<ns2:PublicationDate>2012-03-16</ns2:PublicationDate>
+						<ns2:Publisher>Addison-Wesley Professional</ns2:Publisher>
+						<ns2:ReleaseDate>2012-03-16</ns2:ReleaseDate>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51Lo4v5pD5L._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">58</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Addison-Wesley Professional</ns2:Studio>
+						<ns2:Title>Java Application Architecture: Modularity Patterns with
+							Examples Using OSGi (Robert C. Martin Series)</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>ebooks_display_on_website</ProductCategoryId>
+						<Rank>70627</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>646419031</ProductCategoryId>
+						<Rank>16</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63069011</ProductCategoryId>
+						<Rank>85</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>646420031</ProductCategoryId>
+						<Rank>129</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B00K88S2CM</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Kindle Edition</ns2:Binding>
+						<ns2:Creator Role="Autor">Pirchner, Florian</ns2:Creator>
+						<ns2:Format>Kindle eBook</ns2:Format>
+						<ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+						<ns2:Label>entwickler.press</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:Manufacturer>entwickler.press</ns2:Manufacturer>
+						<ns2:NumberOfPages>28</ns2:NumberOfPages>
+						<ns2:ProductGroup>eBooks</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_EBOOKS</ns2:ProductTypeName>
+						<ns2:PublicationDate>2014-05-08</ns2:PublicationDate>
+						<ns2:Publisher>entwickler.press</ns2:Publisher>
+						<ns2:ReleaseDate>2014-05-08</ns2:ReleaseDate>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/41HWjhS7LYL._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">56</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>entwickler.press</ns2:Studio>
+						<ns2:Title>Modulare Software entwickeln mit OSGi (shortcuts 103)
+						</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>ebooks_display_on_website</ProductCategoryId>
+						<Rank>193333</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>617008031</ProductCategoryId>
+						<Rank>65</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>611279031</ProductCategoryId>
+						<Rank>150</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>655742</ProductCategoryId>
+						<Rank>326</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>3864903130</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Broschiert</ns2:Binding>
+						<ns2:Creator Role="Autor">Eberhard Wolff</ns2:Creator>
+						<ns2:Edition>1., Auflage</ns2:Edition>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">9.37</ns2:Height>
+							<ns2:Length Units="inches">6.46</ns2:Length>
+							<ns2:Width Units="inches">0.98</ns2:Width>
+						</ns2:ItemDimensions>
+						<ns2:Label>dpunkt.verlag GmbH</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Original</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Unbekannt</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:ListPrice>
+							<ns2:Amount>36.90</ns2:Amount>
+							<ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+						</ns2:ListPrice>
+						<ns2:Manufacturer>dpunkt.verlag GmbH</ns2:Manufacturer>
+						<ns2:NumberOfPages>386</ns2:NumberOfPages>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.79</ns2:Height>
+							<ns2:Length Units="inches">9.29</ns2:Length>
+							<ns2:Width Units="inches">6.54</ns2:Width>
+							<ns2:Weight Units="pounds">1.68</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:ProductGroup>Book</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2015-10-22</ns2:PublicationDate>
+						<ns2:Publisher>dpunkt.verlag GmbH</ns2:Publisher>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51BpxZWdygL._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">52</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>dpunkt.verlag GmbH</ns2:Studio>
+						<ns2:Title>Microservices: Grundlagen flexibler
+							Softwarearchitekturen</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>book_display_on_website</ProductCategoryId>
+						<Rank>5904</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>655742</ProductCategoryId>
+						<Rank>1</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>166019031</ProductCategoryId>
+						<Rank>3</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>3868020438</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Broschiert</ns2:Binding>
+						<ns2:Creator Role="Autor">Christoph Schmidt-Casdorff
+						</ns2:Creator>
+						<ns2:Creator Role="Autor">Thorsten Vogel</ns2:Creator>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">8.27</ns2:Height>
+							<ns2:Length Units="inches">5.67</ns2:Length>
+							<ns2:Width Units="inches">0.67</ns2:Width>
+						</ns2:ItemDimensions>
+						<ns2:Label>Entwickler.Press</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Original</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Unbekannt</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:ListPrice>
+							<ns2:Amount>19.90</ns2:Amount>
+							<ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+						</ns2:ListPrice>
+						<ns2:Manufacturer>Entwickler.Press</ns2:Manufacturer>
+						<ns2:NumberOfPages>170</ns2:NumberOfPages>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.47</ns2:Height>
+							<ns2:Length Units="inches">8.19</ns2:Length>
+							<ns2:Width Units="inches">5.51</ns2:Width>
+							<ns2:Weight Units="pounds">0.53</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:ProductGroup>Book</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2009-11-05</ns2:PublicationDate>
+						<ns2:Publisher>Entwickler.Press</ns2:Publisher>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/41A8FirbOmL._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">50</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Entwickler.Press</ns2:Studio>
+						<ns2:Title>OSGi</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>book_display_on_website</ProductCategoryId>
+						<Rank>876178</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>166030031</ProductCategoryId>
+						<Rank>272</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>288100</ProductCategoryId>
+						<Rank>167527</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>3864900190</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Broschiert</ns2:Binding>
+						<ns2:Creator Role="Autor">Ulf Fildebrandt</ns2:Creator>
+						<ns2:Edition>1., Auflage</ns2:Edition>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">9.80</ns2:Height>
+							<ns2:Length Units="inches">6.57</ns2:Length>
+							<ns2:Width Units="inches">0.91</ns2:Width>
+						</ns2:ItemDimensions>
+						<ns2:Label>dpunkt.verlag GmbH</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Original</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>german</ns2:Name>
+								<ns2:Type>Unbekannt</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:ListPrice>
+							<ns2:Amount>39.90</ns2:Amount>
+							<ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+						</ns2:ListPrice>
+						<ns2:Manufacturer>dpunkt.verlag GmbH</ns2:Manufacturer>
+						<ns2:NumberOfPages>332</ns2:NumberOfPages>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.87</ns2:Height>
+							<ns2:Length Units="inches">9.37</ns2:Length>
+							<ns2:Width Units="inches">6.46</ns2:Width>
+							<ns2:Weight Units="pounds">1.41</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:ProductGroup>Book</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2012-08-29</ns2:PublicationDate>
+						<ns2:Publisher>dpunkt.verlag GmbH</ns2:Publisher>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51h4jJ4Oy5L._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">51</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>dpunkt.verlag GmbH</ns2:Studio>
+						<ns2:Title>Software modular bauen: Architektur von langlebigen
+							Softwaresystemen - Grundlagen und Anwendung mit OSGi und Java
+						</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>book_display_on_website</ProductCategoryId>
+						<Rank>467924</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>655742</ProductCategoryId>
+						<Rank>233</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>166019031</ProductCategoryId>
+						<Rank>462</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>0321714334</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Taschenbuch</ns2:Binding>
+						<ns2:Creator Role="Autor">Abu-Eid, Valery</ns2:Creator>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">0.00</ns2:Height>
+							<ns2:Length Units="inches">0.00</ns2:Length>
+							<ns2:Width Units="inches">0.00</ns2:Width>
+							<ns2:Weight Units="pounds">0.00</ns2:Weight>
+						</ns2:ItemDimensions>
+						<ns2:Label>Addison-Wesley Educational Publishers Inc</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Original</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Unbekannt</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:ListPrice>
+							<ns2:Amount>42.35</ns2:Amount>
+							<ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+						</ns2:ListPrice>
+						<ns2:Manufacturer>Addison-Wesley Educational Publishers Inc
+						</ns2:Manufacturer>
+						<ns2:NumberOfPages>352</ns2:NumberOfPages>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.00</ns2:Height>
+							<ns2:Length Units="inches">0.00</ns2:Length>
+							<ns2:Width Units="inches">0.00</ns2:Width>
+							<ns2:Weight Units="pounds">2.20</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:ProductGroup>Book</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2016-05-08</ns2:PublicationDate>
+						<ns2:Publisher>Addison-Wesley Educational Publishers Inc
+						</ns2:Publisher>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51wOzxLKoKL._SL75_.jpg
+							</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">59</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Addison-Wesley Educational Publishers Inc</ns2:Studio>
+						<ns2:Title>Designing Dynamic Java Applications with Osgi
+							(Developer's Library)</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>us_display_on_website</ProductCategoryId>
+						<Rank>946220</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>book_display_on_website</ProductCategoryId>
+						<Rank>2792686</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63069011</ProductCategoryId>
+						<Rank>1811</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63252011</ProductCategoryId>
+						<Rank>4437</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63418011</ProductCategoryId>
+						<Rank>9840</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+		</Products>
+	</ListMatchingProductsResult>
+	<ResponseMetadata>
+		<RequestId>60a7ec47-3df6-4df2-bcfd-5bfe9eb42ef2</RequestId>
+	</ResponseMetadata>
+</ListMatchingProductsResponse>

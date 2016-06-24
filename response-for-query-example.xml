@@ -1,0 +1,602 @@
+<ListMatchingProductsResponse
+	xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+	<ListMatchingProductsResult>
+		<Products>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B00IUA5F9I</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Audio CD</ns2:Binding>
+						<ns2:Brand>EXAMPLE</ns2:Brand>
+						<ns2:Creator Role="Künstler">Example</ns2:Creator>
+						<ns2:Format>Deluxe Edition</ns2:Format>
+						<ns2:Format>Doppel-CD</ns2:Format>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">0.47</ns2:Height>
+							<ns2:Length Units="inches">4.96</ns2:Length>
+							<ns2:Width Units="inches">5.59</ns2:Width>
+							<ns2:Weight Units="pounds">0.25</ns2:Weight>
+						</ns2:ItemDimensions>
+						<ns2:Label>Smi Epc (Sony Music)</ns2:Label>
+						<ns2:Manufacturer>Smi Epc (Sony Music)</ns2:Manufacturer>
+						<ns2:NumberOfDiscs>1</ns2:NumberOfDiscs>
+						<ns2:NumberOfItems>2</ns2:NumberOfItems>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.54</ns2:Height>
+							<ns2:Length Units="inches">5.55</ns2:Length>
+							<ns2:Width Units="inches">4.97</ns2:Width>
+							<ns2:Weight Units="pounds">0.18</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:ProductGroup>Music</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_MUSIC</ns2:ProductTypeName>
+						<ns2:Publisher>Smi Epc (Sony Music)</ns2:Publisher>
+						<ns2:ReleaseDate>2014-07-04</ns2:ReleaseDate>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/611jvSb8a7L._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">75</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Smi Epc (Sony Music)</ns2:Studio>
+						<ns2:Title>Live Life Living (Deluxe)</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>music_display_on_website</ProductCategoryId>
+						<Rank>84237</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>5695789031</ProductCategoryId>
+						<Rank>84</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>379144011</ProductCategoryId>
+						<Rank>4091</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>264875</ProductCategoryId>
+						<Rank>42770</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B005HY6H1K</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>MP3-Download</ns2:Binding>
+						<ns2:Creator Role="Hauptdarsteller">Example</ns2:Creator>
+						<ns2:Genre>dance-and-dj-music</ns2:Genre>
+						<ns2:Label>Vertigo Berlin</ns2:Label>
+						<ns2:Manufacturer>Vertigo Berlin</ns2:Manufacturer>
+						<ns2:ProductGroup>Digital Music Track</ns2:ProductGroup>
+						<ns2:ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2011-01-01</ns2:PublicationDate>
+						<ns2:Publisher>Vertigo Berlin</ns2:Publisher>
+						<ns2:ReleaseDate>2011-09-06</ns2:ReleaseDate>
+						<ns2:RunningTime Units="seconds">193</ns2:RunningTime>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/41upnvqHzPL._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">70</ns2:Height>
+							<ns2:Width Units="pixels">75</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Vertigo Berlin</ns2:Studio>
+						<ns2:Title>Changed The Way You Kiss Me (Radio Edit)</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>digital_music_track_display_on_website</ProductCategoryId>
+						<Rank>19832</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>180830031</ProductCategoryId>
+						<Rank>2688</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B005GMSMUC</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Audio CD</ns2:Binding>
+						<ns2:Brand>EXAMPLE</ns2:Brand>
+						<ns2:Creator Role="Künstler">Example</ns2:Creator>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">0.43</ns2:Height>
+							<ns2:Length Units="inches">5.00</ns2:Length>
+							<ns2:Width Units="inches">5.51</ns2:Width>
+						</ns2:ItemDimensions>
+						<ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+						<ns2:Label>Vertigo Berlin (Universal Music)</ns2:Label>
+						<ns2:Manufacturer>Vertigo Berlin (Universal Music)</ns2:Manufacturer>
+						<ns2:NumberOfDiscs>1</ns2:NumberOfDiscs>
+						<ns2:NumberOfItems>1</ns2:NumberOfItems>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.54</ns2:Height>
+							<ns2:Length Units="inches">5.55</ns2:Length>
+							<ns2:Width Units="inches">4.97</ns2:Width>
+							<ns2:Weight Units="pounds">0.18</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:ProductGroup>Music</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_MUSIC</ns2:ProductTypeName>
+						<ns2:Publisher>Vertigo Berlin (Universal Music)</ns2:Publisher>
+						<ns2:ReleaseDate>2011-10-07</ns2:ReleaseDate>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/41kf5Xi0q8L._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">75</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Vertigo Berlin (Universal Music)</ns2:Studio>
+						<ns2:Title>Playing in the Shadows (inkl. 2 Bonus-Tracks)</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>music_display_on_website</ProductCategoryId>
+						<Rank>67977</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>5695789031</ProductCategoryId>
+						<Rank>61</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>255892</ProductCategoryId>
+						<Rank>191</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>255891</ProductCategoryId>
+						<Rank>256</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B003L8AKOO</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Audio CD</ns2:Binding>
+						<ns2:Brand>Pre Play</ns2:Brand>
+						<ns2:Creator Role="Künstler">Example</ns2:Creator>
+						<ns2:Feature>Record Label: Data Records</ns2:Feature>
+						<ns2:Feature>Catalog#: 5051823012614</ns2:Feature>
+						<ns2:Feature>Country Of Release: UK</ns2:Feature>
+						<ns2:Feature>Year Of Release: 2010</ns2:Feature>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">0.47</ns2:Height>
+							<ns2:Length Units="inches">4.96</ns2:Length>
+							<ns2:Width Units="inches">5.59</ns2:Width>
+						</ns2:ItemDimensions>
+						<ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+						<ns2:Label>Diverse Mo (Musikvertrieb)</ns2:Label>
+						<ns2:Manufacturer>Diverse Mo (Musikvertrieb)</ns2:Manufacturer>
+						<ns2:NumberOfDiscs>1</ns2:NumberOfDiscs>
+						<ns2:NumberOfItems>1</ns2:NumberOfItems>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.39</ns2:Height>
+							<ns2:Length Units="inches">5.51</ns2:Length>
+							<ns2:Width Units="inches">4.65</ns2:Width>
+							<ns2:Weight Units="pounds">0.18</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:PackageQuantity>1</ns2:PackageQuantity>
+						<ns2:PartNumber>5051823012614</ns2:PartNumber>
+						<ns2:ProductGroup>Music</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_MUSIC</ns2:ProductTypeName>
+						<ns2:PublicationDate>2010-01-01</ns2:PublicationDate>
+						<ns2:Publisher>Diverse Mo (Musikvertrieb)</ns2:Publisher>
+						<ns2:ReleaseDate>2010-06-29</ns2:ReleaseDate>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51mv1GqrRNL._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">75</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Diverse Mo (Musikvertrieb)</ns2:Studio>
+						<ns2:Title>Won't Go Quietly</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>music_display_on_website</ProductCategoryId>
+						<Rank>43605</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>5695789031</ProductCategoryId>
+						<Rank>39</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>264875</ProductCategoryId>
+						<Rank>22090</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B009FIHZWY</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Audio CD</ns2:Binding>
+						<ns2:Brand>FAMILY</ns2:Brand>
+						<ns2:Creator Role="Künstler">Example</ns2:Creator>
+						<ns2:Format>Import</ns2:Format>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">0.47</ns2:Height>
+							<ns2:Length Units="inches">4.92</ns2:Length>
+							<ns2:Width Units="inches">5.59</ns2:Width>
+							<ns2:Weight Units="pounds">0.22</ns2:Weight>
+						</ns2:ItemDimensions>
+						<ns2:Label>Ministry of Sound</ns2:Label>
+						<ns2:Manufacturer>Ministry of Sound</ns2:Manufacturer>
+						<ns2:NumberOfDiscs>1</ns2:NumberOfDiscs>
+						<ns2:NumberOfItems>1</ns2:NumberOfItems>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.39</ns2:Height>
+							<ns2:Length Units="inches">5.51</ns2:Length>
+							<ns2:Width Units="inches">4.80</ns2:Width>
+							<ns2:Weight Units="pounds">0.22</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:PartNumber>5051275060829</ns2:PartNumber>
+						<ns2:ProductGroup>Music</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_MUSIC</ns2:ProductTypeName>
+						<ns2:Publisher>Ministry of Sound</ns2:Publisher>
+						<ns2:ReleaseDate>2012-11-19</ns2:ReleaseDate>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51IGJxppkDL._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">75</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Ministry of Sound</ns2:Studio>
+						<ns2:Title>The Evolution of Man</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>music_display_on_website</ProductCategoryId>
+						<Rank>88524</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>5695789031</ProductCategoryId>
+						<Rank>87</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>255902</ProductCategoryId>
+						<Rank>3459</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>264875</ProductCategoryId>
+						<Rank>44984</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B007FUYGYE</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>MP3-Download</ns2:Binding>
+						<ns2:Creator Role="Hauptdarsteller">Example</ns2:Creator>
+						<ns2:Genre>dance-and-dj-music</ns2:Genre>
+						<ns2:Label>Vertigo Berlin</ns2:Label>
+						<ns2:Manufacturer>Vertigo Berlin</ns2:Manufacturer>
+						<ns2:ProductGroup>MP3-Alben</ns2:ProductGroup>
+						<ns2:ProductTypeName>DOWNLOADABLE_MUSIC_ALBUM</ns2:ProductTypeName>
+						<ns2:PublicationDate>2012-01-01</ns2:PublicationDate>
+						<ns2:Publisher>Vertigo Berlin</ns2:Publisher>
+						<ns2:ReleaseDate>2012-03-02</ns2:ReleaseDate>
+						<ns2:RunningTime Units="seconds">3566</ns2:RunningTime>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/41LfURnxqHL._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">74</ns2:Height>
+							<ns2:Width Units="pixels">75</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Vertigo Berlin</ns2:Studio>
+						<ns2:Title>Playing In The Shadows</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>digital_music_album_display_on_website</ProductCategoryId>
+						<Rank>30404</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>180814031</ProductCategoryId>
+						<Rank>3434</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B00DP5K0SO</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Audio CD</ns2:Binding>
+						<ns2:Brand>FAMILY</ns2:Brand>
+						<ns2:Creator Role="Künstler">Example</ns2:Creator>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">0.47</ns2:Height>
+							<ns2:Length Units="inches">4.96</ns2:Length>
+							<ns2:Width Units="inches">5.67</ns2:Width>
+						</ns2:ItemDimensions>
+						<ns2:Label>Ministry of Sound UK (rough trade)</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Unbekannt</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:ListPrice>
+							<ns2:Amount>14.15</ns2:Amount>
+							<ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+						</ns2:ListPrice>
+						<ns2:Manufacturer>Ministry of Sound UK (rough trade)</ns2:Manufacturer>
+						<ns2:NumberOfDiscs>1</ns2:NumberOfDiscs>
+						<ns2:NumberOfItems>1</ns2:NumberOfItems>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.54</ns2:Height>
+							<ns2:Length Units="inches">5.55</ns2:Length>
+							<ns2:Width Units="inches">4.97</ns2:Width>
+							<ns2:Weight Units="pounds">0.18</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:PackageQuantity>1</ns2:PackageQuantity>
+						<ns2:PartNumber>5051275064926</ns2:PartNumber>
+						<ns2:ProductGroup>Music</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_MUSIC</ns2:ProductTypeName>
+						<ns2:Publisher>Ministry of Sound UK (rough trade)</ns2:Publisher>
+						<ns2:ReleaseDate>2013-08-09</ns2:ReleaseDate>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51SE3xorBSL._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">75</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Ministry of Sound UK (rough trade)</ns2:Studio>
+						<ns2:Title>Hits</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>music_display_on_website</ProductCategoryId>
+						<Rank>161670</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>5695789031</ProductCategoryId>
+						<Rank>175</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>264875</ProductCategoryId>
+						<Rank>82482</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>1617290084</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Taschenbuch</ns2:Binding>
+						<ns2:Creator Role="Autor">Adzic, Gojko</ns2:Creator>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">9.25</ns2:Height>
+							<ns2:Length Units="inches">7.38</ns2:Length>
+							<ns2:Width Units="inches">0.61</ns2:Width>
+							<ns2:Weight Units="pounds">1.10</ns2:Weight>
+						</ns2:ItemDimensions>
+						<ns2:Label>Manning</ns2:Label>
+						<ns2:Languages>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Published</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Original</ns2:Type>
+							</ns2:Language>
+							<ns2:Language>
+								<ns2:Name>english</ns2:Name>
+								<ns2:Type>Unbekannt</ns2:Type>
+							</ns2:Language>
+						</ns2:Languages>
+						<ns2:ListPrice>
+							<ns2:Amount>45.96</ns2:Amount>
+							<ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+						</ns2:ListPrice>
+						<ns2:Manufacturer>Manning</ns2:Manufacturer>
+						<ns2:NumberOfPages>270</ns2:NumberOfPages>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.80</ns2:Height>
+							<ns2:Length Units="inches">9.10</ns2:Length>
+							<ns2:Width Units="inches">7.30</ns2:Width>
+							<ns2:Weight Units="pounds">1.10</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:PackageQuantity>1</ns2:PackageQuantity>
+						<ns2:ProductGroup>Book</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2011-06-28</ns2:PublicationDate>
+						<ns2:Publisher>Manning</ns2:Publisher>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/41yUI84ASzL._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">60</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Manning</ns2:Studio>
+						<ns2:Title>Specification by Example: How Successful Teams Deliver
+							the Right Software</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>us_display_on_website</ProductCategoryId>
+						<Rank>2082</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>book_display_on_website</ProductCategoryId>
+						<Rank>33296</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>377670011</ProductCategoryId>
+						<Rank>7</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>63372011</ProductCategoryId>
+						<Rank>9</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B008M0YEJ8</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>MP3-Download</ns2:Binding>
+						<ns2:Creator Role="Hauptdarsteller">Calvin Harris feat. Example</ns2:Creator>
+						<ns2:Genre>dance-and-dj-music</ns2:Genre>
+						<ns2:Label>Columbia</ns2:Label>
+						<ns2:Manufacturer>Columbia</ns2:Manufacturer>
+						<ns2:ProductGroup>Digital Music Track</ns2:ProductGroup>
+						<ns2:ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ns2:ProductTypeName>
+						<ns2:PublicationDate>2012-07-27</ns2:PublicationDate>
+						<ns2:Publisher>Columbia</ns2:Publisher>
+						<ns2:ReleaseDate>2012-07-27</ns2:ReleaseDate>
+						<ns2:RunningTime Units="seconds">236</ns2:RunningTime>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/51xBoABgNTL._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">75</ns2:Height>
+							<ns2:Width Units="pixels">75</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Columbia</ns2:Studio>
+						<ns2:Title>We'll Be Coming Back</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>digital_music_track_display_on_website</ProductCategoryId>
+						<Rank>18150</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>180830031</ProductCategoryId>
+						<Rank>2465</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+			<Product>
+				<Identifiers>
+					<MarketplaceASIN>
+						<MarketplaceId>A1PA6795UKMFR9</MarketplaceId>
+						<ASIN>B005GMSN3S</ASIN>
+					</MarketplaceASIN>
+				</Identifiers>
+				<AttributeSets>
+					<ns2:ItemAttributes xml:lang="de-DE"
+						xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+						<ns2:Binding>Audio CD</ns2:Binding>
+						<ns2:Creator Role="Künstler">Example</ns2:Creator>
+						<ns2:ItemDimensions>
+							<ns2:Height Units="inches">4.92</ns2:Height>
+							<ns2:Length Units="inches">0.16</ns2:Length>
+							<ns2:Width Units="inches">5.59</ns2:Width>
+							<ns2:Weight Units="pounds">0.15</ns2:Weight>
+						</ns2:ItemDimensions>
+						<ns2:Label>Vertigo Berlin (Universal Music)</ns2:Label>
+						<ns2:Manufacturer>Vertigo Berlin (Universal Music)</ns2:Manufacturer>
+						<ns2:NumberOfDiscs>1</ns2:NumberOfDiscs>
+						<ns2:NumberOfItems>1</ns2:NumberOfItems>
+						<ns2:PackageDimensions>
+							<ns2:Height Units="inches">0.54</ns2:Height>
+							<ns2:Length Units="inches">5.55</ns2:Length>
+							<ns2:Width Units="inches">4.97</ns2:Width>
+							<ns2:Weight Units="pounds">0.18</ns2:Weight>
+						</ns2:PackageDimensions>
+						<ns2:PartNumber>BCM82949</ns2:PartNumber>
+						<ns2:ProductGroup>Music</ns2:ProductGroup>
+						<ns2:ProductTypeName>ABIS_MUSIC</ns2:ProductTypeName>
+						<ns2:Publisher>Vertigo Berlin (Universal Music)</ns2:Publisher>
+						<ns2:ReleaseDate>2011-09-09</ns2:ReleaseDate>
+						<ns2:SmallImage>
+							<ns2:URL>http://ecx.images-amazon.com/images/I/41rokLj2h5L._SL75_.jpg</ns2:URL>
+							<ns2:Height Units="pixels">64</ns2:Height>
+							<ns2:Width Units="pixels">75</ns2:Width>
+						</ns2:SmallImage>
+						<ns2:Studio>Vertigo Berlin (Universal Music)</ns2:Studio>
+						<ns2:Title>Changed the Way You Kiss Me (2-Track)</ns2:Title>
+					</ns2:ItemAttributes>
+				</AttributeSets>
+				<Relationships></Relationships>
+				<SalesRankings>
+					<SalesRank>
+						<ProductCategoryId>music_display_on_website</ProductCategoryId>
+						<Rank>205729</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>5695789031</ProductCategoryId>
+						<Rank>245</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>255892</ProductCategoryId>
+						<Rank>777</Rank>
+					</SalesRank>
+					<SalesRank>
+						<ProductCategoryId>255891</ProductCategoryId>
+						<Rank>989</Rank>
+					</SalesRank>
+				</SalesRankings>
+			</Product>
+		</Products>
+	</ListMatchingProductsResult>
+	<ResponseMetadata>
+		<RequestId>087488ea-7877-45cd-9b25-577b6485e0ab</RequestId>
+	</ResponseMetadata>
+</ListMatchingProductsResponse>

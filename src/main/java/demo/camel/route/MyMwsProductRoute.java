@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import demo.camel.processor.AmazonProductProcessor;
+import demo.util.MWSConfig;
 
 
 @Component
@@ -15,8 +16,21 @@ public class MyMwsProductRoute extends RouteBuilder {
 	@SuppressWarnings("unused")
 	private static final Logger LOG = LoggerFactory.getLogger(MyMwsProductRoute.class);
 
-//	@PropertyInject(value = "MWS_URL", defaultValue = "")
+
+	@PropertyInject(value = MWSConfig.PROPERTY_MWS_URL, defaultValue = "")
 	private String mwsUrl = "";
+
+	@PropertyInject(value = MWSConfig.PROPERTY_MWS_ACCESS_KEY, defaultValue = "")
+	private String mwsAccessKey = "";
+
+	@PropertyInject(value = MWSConfig.PROPERTY_MWS_SECRET_ACCESS_KEY, defaultValue = "")
+	private String mwsSecretAccessKey = "";
+
+	@PropertyInject(value = MWSConfig.PROPERTY_MWS_MERCHANT_ID, defaultValue = "")
+	private String mwsMerchantId = "";
+
+	@PropertyInject(value = MWSConfig.PROPERTY_MWS_MARKETPLACE_ID, defaultValue = "")
+	private String mwsMarketplaceId = "";
 
 
 	//   SSL and Apache Camel HTTP component
@@ -28,7 +42,7 @@ public class MyMwsProductRoute extends RouteBuilder {
 	@Override
 	public void configure() {
 		// Create processors
-		AmazonProductProcessor amazonProductProcessor = new AmazonProductProcessor( mwsUrl );
+		AmazonProductProcessor amazonProductProcessor = new AmazonProductProcessor( mwsUrl, mwsAccessKey, mwsSecretAccessKey, mwsMerchantId, mwsMarketplaceId );
 
 		// http://localhost:8080/camel/mws/product
         from("servlet:///mws/product?matchOnUriPrefix=true")

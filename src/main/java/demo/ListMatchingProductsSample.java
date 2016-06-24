@@ -1,4 +1,6 @@
-package demo.util;
+package demo;
+
+import java.util.Properties;
 
 import com.amazonservices.mws.products.MarketplaceWebServiceProducts;
 import com.amazonservices.mws.products.MarketplaceWebServiceProductsClient;
@@ -6,6 +8,8 @@ import com.amazonservices.mws.products.MarketplaceWebServiceProductsException;
 import com.amazonservices.mws.products.model.ListMatchingProductsRequest;
 import com.amazonservices.mws.products.model.ListMatchingProductsResponse;
 import com.amazonservices.mws.products.model.ResponseHeaderMetadata;
+
+import demo.util.MWSConfig;
 
 public class ListMatchingProductsSample {
 
@@ -38,29 +42,30 @@ public class ListMatchingProductsSample {
 	}
 
 	public static void main(String[] args) {
+		Properties props = MWSConfig.loadPropertyFile("src/main/resources/" + MWSConfig.PROPERTY_FILE_NAME);
+//		String secretKey = props.getProperty(MWSConfig.PROPERTY_MWS_SECRET_ACCESS_KEY);
+		String merchantId = props.getProperty(MWSConfig.PROPERTY_MWS_MERCHANT_ID);
+		String marketplaceId = props.getProperty(MWSConfig.PROPERTY_MWS_MARKETPLACE_ID);
+
+
 		// Get a client connection.
-		// Make sure you've set the variables in
-		// MarketplaceWebServiceProductsSampleConfig.
-		MarketplaceWebServiceProductsClient client = MarketplaceWebServiceProductsSampleConfig.getClient();
+		MarketplaceWebServiceProductsClient client = MWSConfig.getClient( props );
 
 		// Create a request.
 		ListMatchingProductsRequest request = new ListMatchingProductsRequest();
-		String sellerId = "example";
-		request.setSellerId(sellerId);
-
-		String mwsAuthToken = "example";
-		request.setMWSAuthToken(mwsAuthToken);
-
-		String marketplaceId = "example";
+		request.setSellerId(merchantId);
+//		request.setMWSAuthToken(secretKey);
 		request.setMarketplaceId(marketplaceId);
 
-		String query = "example";
+		// TODO - Search string entered by the application user!
+		String query = "OSGi";
 		request.setQuery(query);
 
-		String queryContextId = "example";
+		// TODO - Proper Query context, something like a category where search is performed!
+		String queryContextId = "All"; // All, Books, ...
 		request.setQueryContextId(queryContextId);
 
-		// Make the call.
+		@SuppressWarnings("unused")
 		ListMatchingProductsResponse response = ListMatchingProductsSample.invokeRequest(client, request);
 	}
 }
