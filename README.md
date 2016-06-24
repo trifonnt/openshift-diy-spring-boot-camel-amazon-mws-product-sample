@@ -1,6 +1,13 @@
 # Prerequisite 01 - Amazon MWS Account
 
-In order to access Amazon MWS API user must have at least one of the following: a non-individual Selling on Amazon account, an Amazon Payments account, an Amazon Fresh account, or an Amazon Prime Now account. For more information: [Can all Amazon sellers use MWS?](https://developer.amazonservices.com/gp/mws/faq.html/186-4678908-7085925#mawsportal-faq-mwsSellers)
+In order to access Amazon MWS API user must have at least one of the following:
+
+* a non-individual Selling on Amazon account
+* an Amazon Payments account
+* an Amazon Fresh account
+* an Amazon Prime Now account
+
+For more information: [Can all Amazon sellers use MWS?](https://developer.amazonservices.com/gp/mws/faq.html/186-4678908-7085925#mawsportal-faq-mwsSellers)
 
 
 # Prerequisite 02 - Amazon MWS libraries
@@ -20,9 +27,13 @@ We must download Amazon MWS Product library and import it into our local Maven r
 	mvn install:install-file -Dfile=dist/MWSProducts_2011-10-01_v2016-06-01.jar -DgroupId=name.trifon.amazon.mws -DartifactId=mws-java-product -Dversion=1.0.0 -Dpackaging=jar
 ```
 
-# Prerequisite 03(Optional, needed only if deploying on OpenShift PAAS) - OpenShift Account
+# Prerequisite 03 - OpenShift Account
 
-Before we can start building the application, we need to have an OpenShift free or paid account and RedHat client tools(rhc) installed. For instructions how to install rhc please read [Getting Started with OpenShift Online](https://developers.openshift.com/en/getting-started-overview.html).
+	This step is needed only if this application is deployed on OpenShift PAAS. In this version this step is mandatory.
+
+Before we can start building the application, we need to have an OpenShift free or paid account and RedHat client tools(rhc) installed.
+
+For instructions how to install rhc please read [Getting Started with OpenShift Online](https://developers.openshift.com/en/getting-started-overview.html).
 
 
 # Step 1: Create DIY application
@@ -37,7 +48,7 @@ To create an application using client tools, type the following command:
 
 This command creates an application *camel* using *DIY* cartridge and clones the repository to *camel* directory.
 
-# Step 2: Add PostgreSQL cartridge to application
+# Step 2(Optional): Add PostgreSQL cartridge to application
 
 The application we are creating will use PostgreSQL database, hence we need to add appropriate cartridge to the application:
 
@@ -109,7 +120,7 @@ You can then browse to "/" to see the API root resource.
 
 # Step 7: Make request
 
-	http://camel-.rhcloud.com/camel/mws/product?searchString=OSGi&context=All
+	http://camel-.rhcloud.com/camel/mws/product?context=All&searchString=OSGi
 
 
 # Step 8(Optional step): Adding Jenkins
