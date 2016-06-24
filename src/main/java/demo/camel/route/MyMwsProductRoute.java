@@ -16,7 +16,7 @@ public class MyMwsProductRoute extends RouteBuilder {
 	private static final Logger LOG = LoggerFactory.getLogger(MyMwsProductRoute.class);
 
 	@PropertyInject(value = "mws.url", defaultValue = "")
-	private String mwsUrl;
+	private String mwsUrl = "";
 
 
 	//   SSL and Apache Camel HTTP component
