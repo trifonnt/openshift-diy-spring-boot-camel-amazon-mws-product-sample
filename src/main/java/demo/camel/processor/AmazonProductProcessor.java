@@ -16,7 +16,7 @@ public class AmazonProductProcessor implements Processor {
 
 		// Get the bookId Header
 		String searchString = (String) exchange.getIn().getHeader("searchString");
-		LOG.debug("Received queiry parameter[searchString]=" + searchString);
+		LOG.debug("Received query parameter[searchString]=" + searchString);
 
 		// We have access to the HttpServletRequest here and we can grab it if we need to
 		// HttpServletRequest req = exchange.getIn().getBody(HttpServletRequest.class);

@@ -1,6 +1,8 @@
 package demo.camel.route;
 
 import org.apache.camel.builder.RouteBuilder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import demo.camel.processor.AmazonProductProcessor;
@@ -8,6 +10,10 @@ import demo.camel.processor.AmazonProductProcessor;
 
 @Component
 public class MyMwsProductRoute extends RouteBuilder {
+
+	@SuppressWarnings("unused")
+	private static final Logger LOG = LoggerFactory.getLogger(MyMwsProductRoute.class);
+
 
 	//   SSL and Apache Camel HTTP component
 	// - http://stackoverflow.com/questions/5706166/apache-camel-http-and-ssl
@@ -21,7 +27,7 @@ public class MyMwsProductRoute extends RouteBuilder {
 		AmazonProductProcessor amazonProductProcessor = new AmazonProductProcessor();
 
 		// http://localhost:8080/camel/mws/product
-        from("servlet:///mws/product")
+        from("servlet:///mws/product?matchOnUriPrefix=true")
         	//.transform().constant("Hello from Camel!");
         
 		// Use OpenShift environment Variable or Default values if variables are not found
