@@ -24,7 +24,7 @@ public class MyApplicationConfig {
 //	}
 
 	private static final String CAMEL_URL_MAPPING = "/camel/*";
-	private static final String CAMEL_SERVLET_NAME = "CamelServlet";
+	private static final String CAMEL_SERVLET_NAME = "CamelServlet"; // DO NOT CHANGE THIS NAME!
 
 
 	@Bean
@@ -45,7 +45,7 @@ public class MyApplicationConfig {
 
 	@Bean
 	public ServletRegistrationBean servletRegistrationBean() {
-		LOG.info(" *** TRIFON - executing servletRegistrationBean!");
+		LOG.info(" *** TRIFON - registering CamelHttpTransportServlet in servletRegistrationBean!");
 		ServletRegistrationBean registration = new ServletRegistrationBean(new CamelHttpTransportServlet(), CAMEL_URL_MAPPING);
 		registration.setName(CAMEL_SERVLET_NAME);
 		return registration;
