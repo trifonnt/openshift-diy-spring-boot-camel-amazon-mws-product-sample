@@ -20,7 +20,8 @@ public class MyMwsProductRoute extends RouteBuilder {
 		// Create processors
 		AmazonProductProcessor amazonProductProcessor = new AmazonProductProcessor();
 
-		from("jetty:http://0.0.0.0:8080/mws/product?matchOnUriPrefix=true")
+		// Use OpenShift environment Variable or Default values if variables are not found
+		from("jetty:http://{{env:OPENSHIFT_DIY_IP:0.0.0.0}}:{{env:OPENSHIFT_DIY_PORT:8080}}/mws/product?matchOnUriPrefix=true")
 			//.to("http4://www.google.com?bridgeEndpoint=true&throwExceptionOnFailure=false")
 			.process( amazonProductProcessor ) // or .processRef("amazonProductProcessor")
 			.to("log:out")
