@@ -3,6 +3,8 @@ package demo.route;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
+import demo.processor.AmazonProductProcessor;
+
 
 @Component
 public class MyMwsProductRoute extends RouteBuilder {
@@ -15,9 +17,12 @@ public class MyMwsProductRoute extends RouteBuilder {
 	// - http://stackoverflow.com/questions/5646557/apache-camel-http-to-http-routing-is-it-possible
 	@Override
 	public void configure() {
+		// Create processors
+		AmazonProductProcessor amazonProductProcessor = new AmazonProductProcessor();
+
 		from("jetty:http://0.0.0.0:8080/mws/product?matchOnUriPrefix=true")
 			//.to("http4://www.google.com?bridgeEndpoint=true&throwExceptionOnFailure=false")
-			.to("amazonProductProcessor")
+			.process( amazonProductProcessor ) // or .processRef("amazonProductProcessor")
 			.to("log:out")
 		;
 	}
