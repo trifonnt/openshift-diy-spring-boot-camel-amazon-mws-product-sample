@@ -44,15 +44,15 @@
 			<groupId>name.trifon.amazon.mws</groupId>
 			<artifactId>mws-client-runtime</artifactId>
 			<version>1.0.0</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/../amazon-mws-products/dist/MWSClientJavaRuntime-1.0.jar</systemPath>
+			<!--scope>system</scope>
+			<systemPath>${basedir}/../amazon-mws-products/dist/MWSClientJavaRuntime-1.0.jar</systemPath-->
 		</dependency>
 		<dependency>
 			<groupId>name.trifon.amazon.mws</groupId>
 			<artifactId>mws-java-product</artifactId>
 			<version>1.0.0</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/../amazon-mws-products/dist/MWSProducts_2011-10-01_v2016-06-01.jar</systemPath>
+			<!--scope>system</scope>
+			<systemPath>${basedir}/../amazon-mws-products/dist/MWSProducts_2011-10-01_v2016-06-01.jar</systemPath-->
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
