@@ -83,12 +83,11 @@
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpcore</artifactId>
-			<version>${org-apache-httpcomponents-version}</version>
+			<!--version>${org-apache-httpcomponents-version}</version--><!-- version managed by: spring-boot-starter-parent -->
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpmime</artifactId>
-			<version>${org-apache-httpcomponents-version}</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.apache.httpcomponents</groupId>
@@ -99,7 +98,7 @@
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>${org-apache-httpcomponents-version}</version>
+			<!--version>${org-apache-httpcomponents-version}</version--><!-- version managed by: spring-boot-starter-parent -->
 			<exclusions>
 				<exclusion>
 					<groupId>org.apache.httpcomponents</groupId>
@@ -145,7 +144,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.10</version>
+			<!--version>4.10</version--><!-- version managed by: spring-boot-starter-parent -->
 			<scope>test</scope>
 		</dependency>
 		<dependency>
