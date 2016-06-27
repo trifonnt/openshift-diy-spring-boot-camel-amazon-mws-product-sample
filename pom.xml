@@ -30,7 +30,7 @@
 
 	<dependencies>
 		<!-- Amazon MWS libraries created by Trifon -->
-		<dependency>
+		<!--dependency>
 			<groupId>name.trifon.amazon.mws</groupId>
 			<artifactId>mws-client-runtime</artifactId>
 			<version>1.0.0</version>
@@ -39,7 +39,35 @@
 			<groupId>name.trifon.amazon.mws</groupId>
 			<artifactId>mws-java-product</artifactId>
 			<version>1.0.0</version>
+		</dependency-->
+		<dependency>
+			<groupId>name.trifon.amazon.mws</groupId>
+			<artifactId>mws-client-runtime</artifactId>
+			<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/../amazon-mws-products/dist/MWSClientJavaRuntime-1.0.jar</systemPath>
 		</dependency>
+		<dependency>
+			<groupId>name.trifon.amazon.mws</groupId>
+			<artifactId>mws-java-product</artifactId>
+			<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/../amazon-mws-products/dist/MWSProducts_2011-10-01_v2016-06-01.jar</systemPath>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
+		<!--dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk</artifactId>
+			<version>1.11.10</version>
+		</dependency-->
+
+		<!-- https://mvnrepository.com/artifact/technology.integration.amazonservices.mws/amazon-mws-order -->
+		<!--dependency>
+			<groupId>technology.integration.amazonservices.mws</groupId>
+			<artifactId>amazon-mws-order</artifactId>
+			<version>1.0</version>
+		</dependency-->
 
 		 <!-- Spring Boot -->
 		<dependency>
@@ -112,6 +140,18 @@
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-test</artifactId>
 			<version>${camel.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8.1</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
