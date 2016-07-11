@@ -12,6 +12,13 @@ For more information: [Can all Amazon sellers use MWS?](https://developer.amazon
 
 # Prerequisite 02 - Amazon MWS libraries
 
+## Prerequisite 02.1 - Amazon MWS libraries via Maven dependency
+
+Amazon MWS Product library is already included as dependency in the pom.xml file.
+ 
+
+## Prerequisite 02.2(Optional) - Amazon MWS libraries installed in local Maven repository 
+
 We must download Amazon MWS Product library and import it into our local Maven repository.
 ```shell
 

@@ -22,7 +22,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>demo.Application</start-class>
+
 		<java.version>1.8</java.version>
+		<amazon-mws-product.version>1.0.0-alpha.4</amazon-mws-product.version>
 		<camel.version>2.17.1</camel.version>
 		<org-apache-httpcomponents-version>4.2.3</org-apache-httpcomponents-version>
 		<tomcat.version>8.0.30</tomcat.version>
@@ -30,30 +32,18 @@
 
 	<dependencies>
 		<!-- Amazon MWS libraries created by Trifon -->
+		<dependency>
+			<groupId>com.github.trifonnt</groupId>
+			<artifactId>ext-lib-amazon-mws-products</artifactId>
+			<version>${amazon-mws-product.version}</version>
+		</dependency>
 		<!--dependency>
 			<groupId>name.trifon.amazon.mws</groupId>
-			<artifactId>mws-client-runtime</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>name.trifon.amazon.mws</groupId>
 			<artifactId>mws-java-product</artifactId>
 			<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/../amazon-mws-products/dist/MWSProducts_2011-10-01_v2016-06-01.jar</systemPath>
 		</dependency-->
-		<dependency>
-			<groupId>name.trifon.amazon.mws</groupId>
-			<artifactId>mws-client-runtime</artifactId>
-			<version>1.0.0</version>
-			<!--scope>system</scope>
-			<systemPath>${basedir}/../amazon-mws-products/dist/MWSClientJavaRuntime-1.0.jar</systemPath-->
-		</dependency>
-		<dependency>
-			<groupId>name.trifon.amazon.mws</groupId>
-			<artifactId>mws-java-product</artifactId>
-			<version>1.0.0</version>
-			<!--scope>system</scope>
-			<systemPath>${basedir}/../amazon-mws-products/dist/MWSProducts_2011-10-01_v2016-06-01.jar</systemPath-->
-		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
 		<!--dependency>
@@ -61,7 +51,6 @@
 			<artifactId>aws-java-sdk</artifactId>
 			<version>1.11.10</version>
 		</dependency-->
-
 		<!-- https://mvnrepository.com/artifact/technology.integration.amazonservices.mws/amazon-mws-order -->
 		<!--dependency>
 			<groupId>technology.integration.amazonservices.mws</groupId>
@@ -80,10 +69,9 @@
 		</dependency>
 
 		<!-- Needed for Amazon MWS -->
-		<dependency>
+		<!--dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpcore</artifactId>
-			<!--version>${org-apache-httpcomponents-version}</version--><!-- version managed by: spring-boot-starter-parent -->
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -98,14 +86,13 @@
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<!--version>${org-apache-httpcomponents-version}</version--><!-- version managed by: spring-boot-starter-parent -->
 			<exclusions>
 				<exclusion>
 					<groupId>org.apache.httpcomponents</groupId>
 					<artifactId>httpcore</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency-->
 
 		<!-- Apache Camel -->
 		<dependency>
@@ -156,6 +143,11 @@
 	</dependencies>
 
 	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+
 		<repository>
 			<id>spring-snapshots</id>
 			<url>https://repo.spring.io/snapshot/</url>
