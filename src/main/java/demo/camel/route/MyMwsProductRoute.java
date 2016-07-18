@@ -46,6 +46,9 @@ public class MyMwsProductRoute extends RouteBuilder {
 
 		// http://localhost:8080/camel/mws/product
         from("servlet:///mws/product?matchOnUriPrefix=true")
+        	.to("vm:direct-mws-product");
+        
+        from("vm:direct-mws-product")
         	//.transform().constant("Hello from Camel!");
         
 		// Use OpenShift environment Variable or Default values if variables are not found
