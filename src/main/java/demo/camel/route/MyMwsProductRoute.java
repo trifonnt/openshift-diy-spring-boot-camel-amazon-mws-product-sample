@@ -45,12 +45,12 @@ public class MyMwsProductRoute extends RouteBuilder {
 		AmazonProductProcessor amazonProductProcessor = new AmazonProductProcessor( mwsUrl, mwsAccessKey, mwsSecretAccessKey, mwsMerchantId, mwsMarketplaceId );
 
 		// http://localhost:8080/camel/mws/product
-        from("servlet:///mws/product?matchOnUriPrefix=true")
-        	.to("vm:direct-mws-product");
-        
-        from("vm:direct-mws-product")
-        	//.transform().constant("Hello from Camel!");
-        
+		from("servlet:///mws/product?matchOnUriPrefix=true")
+			.to("vm:direct-mws-product");
+
+		from("vm:direct-mws-product")
+			//.transform().constant("Hello from Camel!");
+
 		// Use OpenShift environment Variable or Default values if variables are not found
 //		from("jetty:http://{{env:OPENSHIFT_DIY_IP:0.0.0.0}}:{{env:OPENSHIFT_DIY_PORT:8080}}/mws/product?matchOnUriPrefix=true")
 			//.to("http4://www.google.com?bridgeEndpoint=true&throwExceptionOnFailure=false")
