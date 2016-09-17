@@ -57,4 +57,4 @@ then
 fi
 
 cd $OPENSHIFT_REPO_DIR
-mvn -s settings.xml clean install -DskipTests=true
+mvn -s maven-settings-openshift.xml clean install -DskipTests=true
